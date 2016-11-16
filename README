@@ -2,13 +2,15 @@ Test for merge conflicts
 
 # Code from group 1
 
-# Here is some code
-# It can be big
+def f1(x) :
+    y = dict(1,2)
+    total = 0
+    for i in seq(x):
+        total = total + y[i]
+    out = total / len(x)
+    return(out)
 
 # Code from group 2
-
-# Here is the code for group 2
-# It can be big
 
 # Code from group 3
 
